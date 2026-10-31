@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Realtime Sports API provides live sports data across major leagues including NBA, NFL, MLB, NHL, and soccer. It offers REST endpoints, WebSocket streams, and webhooks delivering scores, play‑by‑play, odds, and betting intel in near‑real‑time. Developers can access a free tier with 1,000 calls per month, no credit card required, and upgrade to paid plans for higher limits and advanced features. The service targets betting apps, fantasy platforms, and live scoreboards, emphasizing reliability, low latency, and comprehensive coverage of 29 leagues.
+Realtime Sports API provides live sports data for developers, covering major leagues such as NBA, NFL, college football, NHL, MLB, and 23 soccer competitions. It offers real-time scores, play‑by‑play updates, betting odds, webhooks, and WebSocket streams. The service includes a free tier with 1,000 calls per month and paid plans for higher volume, plus AI‑powered betting intel and comprehensive documentation.
 
-**Areas:** Company · Sports · API · Real-time · Betting
+**Areas:** Sports · Live-Data · API · Betting · RealTime
 
 ## realtimesportsapi-com on APIs.io
 
@@ -91,41 +91,6 @@ Everything profiled for realtimesportsapi-com is published on APIs.io rather tha
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### AsyncAPI (1)
-
-Event-driven and webhook contracts.
-
-- [Realtimesportsapi Com Webhooks](https://apis.io/asyncapis/realtimesportsapi-com/realtimesportsapi-com-webhooks/)
-
-#### Agentic access (1)
-
-Which operations an agent can call, which act, and which need a human in the loop.
-
-- [Realtimesportsapi Com Agentic Access](https://apis.io/agentic-access/realtimesportsapi-com/realtimesportsapi-com-agentic-access/)
-
-#### JSON Schema (6)
-
-The data models the API reads and writes.
-
-- [Athlete](https://apis.io/schemas/realtimesportsapi-com/realtimesportsapi-com-athlete/)
-- [AvailabilityState](https://apis.io/schemas/realtimesportsapi-com/realtimesportsapi-com-availability-state/)
-- [Event](https://apis.io/schemas/realtimesportsapi-com/realtimesportsapi-com-event/)
-- [GameRoster](https://apis.io/schemas/realtimesportsapi-com/realtimesportsapi-com-game-roster/)
-- [Play](https://apis.io/schemas/realtimesportsapi-com/realtimesportsapi-com-play/)
-- [Team](https://apis.io/schemas/realtimesportsapi-com/realtimesportsapi-com-team/)
-
-#### JSON-LD (1)
-
-Linked-data contexts for the provider's vocabulary.
-
-- [Realtimesportsapi Com Context](https://apis.io/jsonld/realtimesportsapi-com/realtimesportsapi-com-context/)
-
-#### Governance rules (1)
-
-Spectral rulesets for the provider's contracts.
-
-- [realtimesportsapi-com API Rules](https://apis.io/rules/realtimesportsapi-com/realtimesportsapi-com-rules/)
-
 #### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
@@ -133,21 +98,21 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Realtimesportsapi Com Authentication](https://apis.io/security/realtimesportsapi-com/realtimesportsapi-com-authentication/)
 - [Realtimesportsapi Com Domain Security](https://apis.io/security/realtimesportsapi-com/realtimesportsapi-com-domain-security/)
 
-#### Plans and pricing (1)
+#### OAuth scopes (1)
 
-Published plans, tiers and prices.
+The permissions the API asks for.
 
-- [Realtimesportsapi Com Plans Pricing](https://apis.io/plans/realtimesportsapi-com/realtimesportsapi-com-plans-pricing/)
+- [Realtimesportsapi Com Scopes](https://apis.io/scopes/realtimesportsapi-com/realtimesportsapi-com-scopes/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://www.realtimesportsapi.com/)
-- [Documentation](https://www.realtimesportsapi.com/api-docs)
-- [Getting started](https://www.realtimesportsapi.com/signup)
-- [API reference](https://www.realtimesportsapi.com/api-docs)
+- [Website](https://realtimesportsapi.com/)
+- [Documentation](https://www.realtimesportsapi.com/docs)
+- [API reference](https://www.realtimesportsapi.com/docs)
 - [Pricing](https://www.realtimesportsapi.com/pricing)
+- [Sign up](https://www.realtimesportsapi.com/signup)
 - [Changelog](https://www.realtimesportsapi.com/changelog)
 - [Blog](https://www.realtimesportsapi.com/blog)
 - [Terms of service](https://www.realtimesportsapi.com/terms)
@@ -156,23 +121,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 63.6** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 47.3** — developing · rubric 0.25.0 · scored 2026-10-31
 
 | Facet | Score |
 |---|---|
-| Discoverability | 67.9 |
-| Contract quality | 70.1 |
-| Contract governance | 79.1 |
+| Discoverability | 66.7 |
+| Contract quality | 48.6 |
+| Contract governance | 16.4 |
 | Operational transparency | 39.5 |
-| Developer ergonomics | 56.4 |
-| Access clarity | 60.0 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 44.7 |
 
-**Agent readiness 49.1** — agent-ready (gated down from agent-native)
+**Agent readiness 39.9** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
@@ -181,7 +146,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
 | Event Surface Described | unknown |
-| Agent Skills | unknown |
+| Agent Skills | — |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -193,7 +158,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
 
-**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/realtimesportsapi-com/](https://apis.io/providers/realtimesportsapi-com/).
 
